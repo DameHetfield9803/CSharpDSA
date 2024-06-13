@@ -68,12 +68,12 @@
         {
             int[] array = [9, 213, 21, 42, 1, 7, 2, 8, 23213];
             BubbleSort(array);
-            foreach(int i in array)
+            foreach (int i in array)
             {
                 Console.WriteLine(i);
             }
             Console.WriteLine(BinarySearch([0, 1, 2, 4, 8, 16, 123, 343, 43], 2));
-            int index = interpolationSearch(array, 256);
+            int index = interpolationSearch(array, 213);
             if (index != -1)
             {
                 Console.WriteLine("Element found at index: " + index);
