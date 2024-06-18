@@ -41,7 +41,7 @@
             }
             return -1;
         }
-        public static int interpolationSearch(int[] array, int value)
+        static int interpolationSearch(int[] array, int value)
         {
             int high = array.Length - 1;
             int low = 0;
